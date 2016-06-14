@@ -10,7 +10,6 @@ module.exports = function(sequelize, DataTypes) {
 			activityId: DataTypes.INTEGER,
 			activityName: DataTypes.STRING,
 			activityCode: DataTypes.STRING,
-			// subgroupId: DataTypes.INTEGER,
 		},
 		{
 			associate: function(models) {
